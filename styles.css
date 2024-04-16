@@ -1,0 +1,115 @@
+body{
+    background-image: url("1624.jpg");
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 64px;
+    letter-spacing: 2px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    margin-top:180px;   
+    padding: 0;
+    transition: 0.5s;
+}
+.text:hover{
+    letter-spacing: 4px;
+    color: #ff1867;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 20vh;
+}
+.box a{
+    padding: 10px 30px;
+    background-color: white;
+    color: black;
+    gap: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 24px;
+    letter-spacing: 1.6px;
+    font-weight: 400;
+    transition: 0.5s;
+}
+.box a:hover{
+    background: var(--clr);
+    letter-spacing: 4px;
+    box-shadow:0 0 35px var(--clr);
+}
+/*Main part*/
+
+#container{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+.title{
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: cyan;
+    text-align: center;
+}
+#board{
+    width: 450px;
+    height: 450px;
+    background-color: lightblue;
+    display: flex;
+    border: 10px solid rgb(138, 124, 201);
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+#board img{
+    width: 148px;
+    height: 148px;
+    border: 1px solid lightblue;
+}
+#container h1{
+    display: flex;
+    justify-content: center;
+
+}
+.next{
+    margin-left: 160px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    letter-spacing: 1.6px;
+}
+.information{
+    display: flex;
+    justify-content: center;
+}
+.result a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    text-decoration: underline;
+}
+.ten{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+}
+.eleven{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: auto;
+}
+.back{
+    color: black;
+    background-color: white;
+    font-size: 30px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    border: 1px solid black;
+}
+
